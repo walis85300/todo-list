@@ -1,14 +1,29 @@
 {
-  "name": "sfotipy",
+  "name": "todo",
   "version": "0.0.0",
-  "description": "A Spotify Clone (?)",
+  "description": "prueba",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
-  "author": "Julian Duque <julianduquej@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/walis85300/todo-list.git"
+  },
+  "keywords": [
+    "test",
+    "todo",
+    "list",
+    "backbone"
+  ],
+  "author": "@walis85300",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/walis85300/todo-list/issues"
+  },
+  "homepage": "https://github.com/walis85300/todo-list",
   "dependencies": {
-    "node-static": "^0.7.3"
+    "node-static": "^0.7.3",
+    "backbone": "^1.1.2"
   }
 }

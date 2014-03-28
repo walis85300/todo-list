@@ -8,10 +8,8 @@
 	<header>
 		<h1>ToDo list</h1>
 	</header>
-	<section class="main">
+	<section id="todos">
 		<input type="text" id="new-todo" placeholder="Ingresa el ToDo">
-	</section>
-	<section class="todos">
 		<ul id="todo-list">
 			
 		</ul>
@@ -24,5 +22,11 @@
 	<script src="js/jquery.js"></script>
 	<script src="js/handlebars.js"></script>
 	<script src="js/main.js"></script>
+
+	<script id="item-template" type="text/x-handlebars-template">
+
+		<p>{{title}}<p>
+
+	</script>
 </body>
 </html>

@@ -1,7 +1,7 @@
 var http = require('http'),
     st   = require('node-static'),
     opts = { },
-    file = new st.Server('./app', opts),
+    file = new st.Server('.', opts),
     port = process.env.PORT || 8080;
 
 
