@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>ToDo List</title>
+	<link rel="stylesheet" href="estilos.css">
 </head>
 <body>
 	<header>
@@ -25,7 +26,9 @@
 
 	<script id="item-template" type="text/x-handlebars-template">
 
-		<p>{{title}}<p>
+		<p class="title">{{title}}</p>
+
+		<input type="text" class="edit" placeholder="Modifica la tarea">
 
 	</script>
 </body>
